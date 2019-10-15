@@ -1,0 +1,18 @@
+﻿@model OnlineBookStore.ViewModels.BookListViewModel;
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div><h2>All Books</h2></div>
+
+<h2>@Model.CurrentCategory</h2>
+@{ 
+    foreach (var book in Model.BookList)
+    {
+    <div>
+        <h4>Book Name: @book.BookName</h4>
+        <h4>Price: @book.BookPrice.ToString("c")</h4>
+    </div>
+    }
+}
