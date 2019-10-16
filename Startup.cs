@@ -7,10 +7,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using OnlineBookStore.Data;
 using OnlineBookStore.Data.Interfaces;
-using OnlineBookStore.Data.Mocks;
+using OnlineBookStore.Data.Repositories;
+using OnlineBookStore.Models;
 
 namespace OnlineBookStore
 {
@@ -32,14 +35,19 @@ namespace OnlineBookStore
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            services.AddTransient<IBookRepository, MockBookRepository>();
-            services.AddTransient<ICategoryRepository, MockCategoryRepository>();
+
+            //Added by Tasfia - Begin
+            services.AddTransient<IBookRepository, BookRepository>();
+            services.AddTransient<ICategoryRepository, BookCategoryRepository>();
+            services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //End
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -54,7 +62,7 @@ namespace OnlineBookStore
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            DbInitializer.Seed(serviceProvider);
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
