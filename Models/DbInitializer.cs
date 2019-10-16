@@ -12,10 +12,10 @@ namespace OnlineBookStore.Models
     public class DbInitializer
     {
         
-            public static void Seed(IApplicationBuilder applicationBuilder)
+            public static void Seed(IServiceProvider applicationBuilder)
             {
-               AppDbContext context =
-                applicationBuilder.ApplicationServices.GetRequiredService<AppDbContext>();
+              AppDbContext context =
+              applicationBuilder.GetRequiredService<AppDbContext>();
 
 
             if (!context.BookCategories.Any())
