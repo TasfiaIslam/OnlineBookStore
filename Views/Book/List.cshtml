@@ -7,18 +7,8 @@
 
 <h2>@Model.CurrentCategory</h2>
 @{ 
-    foreach (var book in Model.BookList)
+    foreach (Book book in Model.BookList)
     {
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img src="@book.BookImageThumbnailUrl" alt=""/>
-            <div class="caption">
-                <h3 class="pull-right"></h3>
-                <h3>Price: @book.BookPrice.ToString("c")</h3>
-                <a>@book.BookName</a>                
-                <p>@book.BookShortDescription</p>
-            </div>
-        </div>
-    </div>
+      @Html.Partial("BooksSummary",book)
     }
 }

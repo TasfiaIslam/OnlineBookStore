@@ -4,15 +4,27 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using OnlineBookStore.Data.Interfaces;
 using OnlineBookStore.Models;
+using OnlineBookStore.ViewModels;
 
 namespace OnlineBookStore.Controllers
 {
+    
     public class HomeController : Controller
     {
+        private readonly IBookRepository _bookRepository;
+        public HomeController(IBookRepository bookRepository)
+        {
+            _bookRepository = bookRepository;
+        }
         public IActionResult Index()
         {
-            return View();
+            var homeViewModel = new HomeViewModel
+            {
+                PreferredBooks = _bookRepository.PreferredBooks
+            };
+            return View(homeViewModel);
         }
 
         public IActionResult About()

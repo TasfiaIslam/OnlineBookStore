@@ -39,11 +39,17 @@ namespace OnlineBookStore
             //Added by Tasfia - Begin
             services.AddTransient<IBookRepository, BookRepository>();
             services.AddTransient<ICategoryRepository, BookCategoryRepository>();
+
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sp => ShoppingCart.GetCart(sp));
             //End
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,6 +69,7 @@ namespace OnlineBookStore
             app.UseStaticFiles();
             app.UseCookiePolicy();
             DbInitializer.Seed(serviceProvider);
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

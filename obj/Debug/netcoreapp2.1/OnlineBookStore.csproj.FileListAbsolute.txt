@@ -31,3 +31,6 @@ D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1
 D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.pdb
 D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.csproj.CopyComplete
 D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Book\List.g.cshtml.cs
+D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\BooksSummary.g.cshtml.cs
+D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\ShoppingCart\Index.g.cshtml.cs
+D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Carousel.g.cshtml.cs

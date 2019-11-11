@@ -1,0 +1,13 @@
+﻿@model Book
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="thumbnail">
+        <img src="@Model.BookImageThumbnailUrl" alt="" />
+        <div class="caption">
+            <h3 class="pull-right"></h3>
+            <h3>Price: @Model.BookPrice.ToString("c")</h3>
+            <a>@Model.BookName</a>
+            <p>@Model.BookShortDescription</p>
+        </div>
+    </div>
+</div>
