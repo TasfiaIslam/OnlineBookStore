@@ -74,3 +74,4 @@ C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp
 C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.dll
 C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.pdb
 C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.csproj.CopyComplete
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
