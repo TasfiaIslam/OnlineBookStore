@@ -2,12 +2,16 @@
 
 @await Html.PartialAsync("Carousel")
 
-<h2>Preferred books of the week</h2>
-<h4>Customers' preferences - Just for you!</h4>
+<head>
+    <link href="~/css/homeIndexStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Preferred books</h2>
 
-<div class="row">
-    @foreach (var book in Model.PreferredBooks)
-    {
-        @Html.Partial("BooksSummary",book)
-    }
-</div>
+    <div class="row bg-danger">
+        @foreach (var book in Model.PreferredBooks)
+        {
+            @Html.Partial("BooksSummary", book)
+        }
+    </div>
+</body>

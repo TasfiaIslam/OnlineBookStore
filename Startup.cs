@@ -72,9 +72,14 @@ namespace OnlineBookStore
             app.UseSession();
             app.UseMvc(routes =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+               routes.MapRoute(
+               name: "categoryFilter",
+               template: "{controller=Book}/{action}/{category?}");
+
+               routes.MapRoute(
+                        name: "default",
+                        template: "{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }

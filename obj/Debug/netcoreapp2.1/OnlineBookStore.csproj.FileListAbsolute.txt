@@ -35,3 +35,42 @@ D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1
 D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\ShoppingCart\Index.g.cshtml.cs
 D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Carousel.g.cshtml.cs
 D:\Visual Studio Codes\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.g.cshtml.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.deps.json
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.runtimeconfig.json
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.runtimeconfig.dev.json
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.dll
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.pdb
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.Views.dll
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\bin\Debug\netcoreapp2.1\OnlineBookStore.Views.pdb
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.csprojAssemblyReference.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.RazorAssemblyInfo.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.RazorAssemblyInfo.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.AssemblyInfoInputs.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.AssemblyInfo.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.TagHelpers.input.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.TagHelpers.output.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.RazorCoreGenerate.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Book\List.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\BooksSummary.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Carousel.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.RazorTargetAssemblyInfo.cache
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.RazorTargetAssemblyInfo.cs
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.Views.pdb
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.dll
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.pdb
+C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\obj\Debug\netcoreapp2.1\OnlineBookStore.csproj.CopyComplete
