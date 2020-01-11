@@ -65,6 +65,52 @@ namespace OnlineBookStore.Migrations
                     b.ToTable("BookCategories");
                 });
 
+            modelBuilder.Entity("OnlineBookStore.Models.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address");
+
+                    b.Property<string>("FirstName");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<DateTime>("OrderPlaced");
+
+                    b.Property<decimal>("OrderTotal");
+
+                    b.Property<string>("PhoneNumber");
+
+                    b.HasKey("OrderId");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("OnlineBookStore.Models.OrderDetail", b =>
+                {
+                    b.Property<int>("OrderDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BookId");
+
+                    b.Property<decimal>("BookPrice");
+
+                    b.Property<int>("NumberOfBooks");
+
+                    b.Property<int>("OrderId");
+
+                    b.HasKey("OrderDetailId");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderDetails");
+                });
+
             modelBuilder.Entity("OnlineBookStore.Models.ShoppingCartItem", b =>
                 {
                     b.Property<int>("ShoppingCartItemId")
@@ -89,6 +135,19 @@ namespace OnlineBookStore.Migrations
                     b.HasOne("OnlineBookStore.Models.BookCategory", "BookCategory")
                         .WithMany("BookList")
                         .HasForeignKey("BookCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("OnlineBookStore.Models.OrderDetail", b =>
+                {
+                    b.HasOne("OnlineBookStore.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("OnlineBookStore.Models.Order", "Order")
+                        .WithMany("OrderLines")
+                        .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

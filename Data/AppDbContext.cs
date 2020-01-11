@@ -16,5 +16,7 @@ namespace OnlineBookStore.Data
         public DbSet<Book> Books {get;set;}
         public DbSet<BookCategory> BookCategories { get; set; }    
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
     }
 }

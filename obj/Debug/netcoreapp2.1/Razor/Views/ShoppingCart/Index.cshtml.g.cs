@@ -125,7 +125,7 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("\r\n                    </td>\r\n                    <td class=\"text-center\">");
             EndContext();
             BeginContext(1035, 165, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "329d015b2ce446b38749acfca7cf034f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "97ecaf976e4e4d478ad8c5b0597c2832", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
