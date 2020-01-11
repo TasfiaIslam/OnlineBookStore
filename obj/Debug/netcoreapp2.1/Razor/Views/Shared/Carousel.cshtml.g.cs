@@ -67,12 +67,12 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("<html>\r\n\r\n");
             EndContext();
             BeginContext(10, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e02509abfdc54879826d6487971b1a78", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3c16946592d4509901186164ad7bd17", async() => {
                 BeginContext(16, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(22, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7fdebab362d940679be133e21efaea1c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "302266c821ca468fbe58bee88e47983e", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -106,7 +106,7 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(91, 1527, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c0202220921e48c0a6fbc98b2935f48a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "868ab5a6a4e246578ea718c7a7742723", async() => {
                 BeginContext(97, 644, true);
                 WriteLiteral(@"
     <div class=""row carousel-holder mt-3"">
@@ -122,7 +122,7 @@ using OnlineBookStore.ViewModels;
                         ");
                 EndContext();
                 BeginContext(741, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "79fc618fd9a546d5a3420b8893bc364d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "cf740ff28f2f49b79ef098236f06ffc1", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -142,7 +142,7 @@ using OnlineBookStore.ViewModels;
                 WriteLiteral("\r\n                    </div>\r\n                    <div class=\"item\">\r\n                        ");
                 EndContext();
                 BeginContext(894, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "10dd0a8e943c42fa9148a372f8f0a6d6", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e5042676433148df92cafe13134fae13", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -162,7 +162,7 @@ using OnlineBookStore.ViewModels;
                 WriteLiteral("\r\n                    </div>\r\n                    <div class=\"item\">\r\n                        ");
                 EndContext();
                 BeginContext(1047, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "da287f01e193409b87dcd10df5a3fb92", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d68c166610494592b8035040bffba805", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
