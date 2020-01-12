@@ -64,7 +64,7 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("<li class=\"dropdown\">\r\n    ");
             EndContext();
             BeginContext(27, 137, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66a793b2575a4fc29ecd7538454ceee0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c96f801e9e024a47b0f6261a198a6c04", async() => {
                 BeginContext(134, 26, true);
                 WriteLiteral("Books<b class=\"caret\"></b>");
                 EndContext();
@@ -99,7 +99,7 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("            <li>\r\n                ");
             EndContext();
             BeginContext(285, 141, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3f142093fc1424097ba249ffb430b3f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c02e9cf9b4c647a4b272a7abd77f1475", async() => {
                 BeginContext(397, 25, false);
 #line 10 "C:\Tasfia\Github Projects\Online Book Store\OnlineBookStore\Views\Shared\Components\CategoryMenu\Default.cshtml"
                                                               Write(category.BookCategoryName);
@@ -148,7 +148,7 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("        <li class=\"divider\"></li>\r\n        <li>\r\n            ");
             EndContext();
             BeginContext(519, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0677168f8cdf417abcb25ae647308b6d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a04b27beeb2c4de08f126f87a0d9f5aa", async() => {
                 BeginContext(584, 14, true);
                 WriteLiteral("View all Books");
                 EndContext();

@@ -68,7 +68,7 @@ using OnlineBookStore.ViewModels;
             WriteLiteral("    <li>\r\n        ");
             EndContext();
             BeginContext(107, 235, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5807be0593b4a538a840330e87229c4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08c153ac3eea4a89bbff979bae858842", async() => {
                 BeginContext(140, 124, true);
                 WriteLiteral("\r\n            <span class=\"glyphicon glyphicon-shopping-cart\"></span>\r\n            <span id=\"cart-status\">\r\n                ");
                 EndContext();

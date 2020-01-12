@@ -18,8 +18,36 @@ namespace OnlineBookStore.Controllers
             _orderRepository = orderRepository;
             _shoppingCart = shoppingCart;
         }
+
+        [HttpGet]
         public IActionResult Checkout()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Checkout(Order order)
+        {
+            var items = _shoppingCart.GetShoppingCartItems();
+            _shoppingCart.ShoppingCartItems = items;
+
+            if(_shoppingCart.ShoppingCartItems.Count == 0)
+            {
+                ModelState.AddModelError("", "Your cart is empty");
+            }
+
+            if (ModelState.IsValid)
+            {
+                _orderRepository.CreateOrder(order);
+                _shoppingCart.ClearCart();
+                return RedirectToAction("OrderSuccess");
+            }
+            return View(order);
+        }
+
+        public IActionResult OrderSuccess()
+        {
+            ViewBag.CheckoutCompleteMessage = "Thanks for your order!";
             return View();
         }
     }

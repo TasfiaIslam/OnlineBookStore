@@ -72,12 +72,12 @@ Write(await Html.PartialAsync("Carousel"));
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(65, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f6ccf1ff5b4c49ce87364ca6d6f4ade6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bcf6d2d6b8e8432a8c0b967bbc039380", async() => {
                 BeginContext(71, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(77, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e539ae7e2ad4cb98cb0fa7fb2890d84", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7a8456317b034675a024edd08dfd6bc3", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -111,7 +111,7 @@ Write(await Html.PartialAsync("Carousel"));
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(145, 216, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e807024707b410e9762143c72424ad4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa2bca466f154cb4a541b4756b5079ef", async() => {
                 BeginContext(151, 67, true);
                 WriteLiteral("\r\n    <h2>Preferred books</h2>\r\n\r\n    <div class=\"row bg-danger\">\r\n");
                 EndContext();

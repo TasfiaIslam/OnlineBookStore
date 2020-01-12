@@ -39,6 +39,7 @@ namespace OnlineBookStore
             //Added by Tasfia - Begin
             services.AddTransient<IBookRepository, BookRepository>();
             services.AddTransient<ICategoryRepository, BookCategoryRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
 
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
